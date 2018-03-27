@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Card from "./components/Card";
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
+import List from "./components/List";
+import groceries from "./components/Groceries";
+// class App extends React.Component{
+//   render(){
+//     return(
+//       <Navbar />
+//       <Card />
+//     )
+//   }
+// }
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-
+const App = () =>(
+  <div>
+    <Navbar  />
+    <Wrapper />
+    <List groceries={groceries} />
+    {/* groceries (as an attribute name matches prop.groceriers in List.js the groceries in {} comes from the import groceries at the top of the page. change names to test  */}
+  </div>
+);
 export default App;
