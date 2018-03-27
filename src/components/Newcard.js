@@ -6,6 +6,7 @@ const Newcard = props => (
   <wrapper>
     {props.friends.map(item => (
       <div className="card">
+        <img className="card-img-top" src={item.image} alt={item.name} />
         <div className="card-body">
           <h5 className="card-title" key={item.id}>
         {item.name}
