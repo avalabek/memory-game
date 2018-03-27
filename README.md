@@ -9,7 +9,9 @@ https://avalabek.github.io/memory-game/.
 
 
 ![Kitchen-Collective](public/images/Picture1.png "Deployed with Github Pages")
+
 ![Kitchen-Collective](public/images/Picture2.png)
+
 ![Kitchen-Collective](public/images/Picture3.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
