@@ -1,5 +1,5 @@
 import React from "react";
-import groceries from "../Groceries";
+
 
 
 
@@ -8,7 +8,7 @@ import groceries from "../Groceries";
 const List = props => (
   
   <ul className="list-group">
-    {props.groceries.map(item => (
+    {props.friends.map(item => (
       <li className="list-group-item" key={item.id}>
         {item.name}
       </li>

@@ -10,6 +10,7 @@ class Wrapper extends React.Component {
       <wrapper>
         <div className="row">
           <div className="col-6 col-md-4">
+          
             <Card />
           </div>
           
