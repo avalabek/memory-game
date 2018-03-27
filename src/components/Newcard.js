@@ -1,27 +1,16 @@
 import React from "react";
 
-// Whenever we try to render an array containing JSX, React knows to render each JSX element separately
+
 const Newcard = props => (
-  //if you need state changes use constructor 
-  <wrapper>
-    <div className="row">
-        {props.friends.map(item => (
-    
-      <div className="col-md-4">
-        <div className="card">
-          <img  src={item.image} alt={item.name} />
-            {/* <div className="card-body"> */}
-              {/* <h5 className="card-title" key={item.id}>
-                {item.name}
-              </h5> */}
-            {/* </div> */}
+    <div className="card">
+        <div className="img-container">
+            <a onClick={() => props.selectPlace(props.name)} 
+                className={props.currentScore === 0 ? "style_prevu_kit style_prevu_kit_ex" : "style_prevu_kit"}
+            >
+                <img alt={props.name} src={props.image} />
+            </a>
         </div>
-      </div>
-   
-        ))}
-     </div> 
-  </wrapper>
-  
+    </div>
 );
 
 export default Newcard;

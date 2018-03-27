@@ -2,32 +2,29 @@ import React from "react";
 import  "./Navbar.css";
 
 // By extending the React.Component class, Counter inherits functionality from it
-class Navbar extends React.Component {
-  
-  render() {
-    return (
+
+ const Navbar = props => ( 
+ 
       <nav className="navbar blah">
         <span className="navbar-brand mb-0 h1">Travel Memory Game</span>
-        {/* <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Features</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Pricing</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul> */}
-      </nav>
+          <ul className="nav nav-pills nav-justified">
+            <li
+                className={props.message.indexOf('incorrectly') !== -1 ? 
+                    "desc-incorrect" : 
+                    props.message.indexOf('correctly') !== -1 ?
+                        "desc-correct" :
+                        "desc-normal"}
+            >
+                {props.message}
+            </li>
+            <li>Score: <span>{props.currentScore}</span> | Best Score: {props.bestScore}</li>
+        </ul>
+    
+       </nav>
 
       
-    )
-  }
-}
+    );
+
 
 
 
