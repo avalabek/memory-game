@@ -6,7 +6,9 @@ import  "./Navbar.css";
  const Navbar = props => ( 
  
       <nav className="navbar blah">
-        <span className="navbar-brand mb-0 h1">Travel Memory Game</span>
+        <span className="navbar-brand mb-0 h1">
+            {/* <h1>Travel Memory Game</h1> */}
+            </span>
           <ul className="nav nav-pills nav-justified">
             <li
                 className={props.message.indexOf('incorrectly') !== -1 ? 
