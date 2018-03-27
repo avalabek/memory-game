@@ -9,12 +9,12 @@ const Newcard = props => (
     
       <div className="col-md-4">
         <div className="card">
-          <img className="card-img-top" src={item.image} alt={item.name} />
-            <div className="card-body">
-              <h5 className="card-title" key={item.id}>
+          <img  src={item.image} alt={item.name} />
+            {/* <div className="card-body"> */}
+              {/* <h5 className="card-title" key={item.id}>
                 {item.name}
-              </h5>
-            </div>
+              </h5> */}
+            {/* </div> */}
         </div>
       </div>
    
