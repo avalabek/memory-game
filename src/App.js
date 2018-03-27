@@ -78,13 +78,16 @@ render(){
           {/* <Newcard friends={friends} /> */}
     {/* groceries (as an attribute name matches prop.groceriers in List.js the groceries in {} comes from the import groceries at the top of the page. change names to test  */}
            {
+             
              this.state.friends.map(friend => (
+               
                <Newcard
                   name={friend.name}
                   image={friend.image}
                   selectPlace={this.selectPlace}
                   currentScore={this.state.currentScore}
                   />
+                  
              ))
            }
            

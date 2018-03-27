@@ -1,7 +1,10 @@
 import React from "react";
+import "./Newcard.css";
 
 
 const Newcard = props => (
+  <div className="row">
+  <div className="col-md-4">
     <div className="card">
         <div className="img-container">
             <a onClick={() => props.selectPlace(props.name)} 
@@ -11,6 +14,8 @@ const Newcard = props => (
             </a>
         </div>
     </div>
+   </div> 
+   </div>
 );
 
 export default Newcard;
