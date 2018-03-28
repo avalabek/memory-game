@@ -1,4 +1,4 @@
-.wrapper {
+.Newwrapper {
   /* padding-top: 50px; */
   background: #ECEFF1;
   height: 100%;
@@ -8,4 +8,7 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  background: -webkit-linear-gradient(90deg, rgb(88, 218, 179), rgb(151, 81, 174));
+ background: linear-gradient(90deg, rgb(88, 218, 179), rgb(151, 81, 174));
+  
 }

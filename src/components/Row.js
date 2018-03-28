@@ -7,15 +7,15 @@ const Row = props => (
   <wrapper>
     <div className="row">
      
-        {props.friends.map(item => (
+        {/* {props.friends.map(item => (
             <Newcard
                   name={friend.name}
                   image={friend.image}
                   selectPlace={this.selectPlace}
                   currentScore={this.state.currentScore}
                   />
-      
-        ))}
+       */}
+        {/* ))} */}
      </div> 
   </wrapper>
   

@@ -3,7 +3,7 @@ import "./Newcard.css";
 
 
 const Newcard = props => (
-  <div className="row">
+//   <div className="row">
   <div className="col-md-4">
     <div className="card">
         <div className="img-container">
@@ -15,7 +15,7 @@ const Newcard = props => (
         </div>
     </div>
    </div> 
-   </div>
-);
+//    </div>
+)
 
 export default Newcard;

@@ -7,6 +7,7 @@ import friends from "./friends.json";
 import Newcard from "./components/Newcard";
 import Jumbotron from "./components/Jumbotron";
 import Footer from "./components/Footer";
+import Row from "./components/Row";
 // class App extends React.Component{
 //   render(){
 //     return(
@@ -73,6 +74,7 @@ render(){
             bestScore={this.state.bestScore}
             />
              <Jumbotron />
+             <Row />
     {/* <Wrapper friends={friends}/> */}
     {/* <List friends={friends} /> */}
           {/* <Newcard friends={friends} /> */}
@@ -91,7 +93,7 @@ render(){
              ))
            } 
            
-           <Footer />
+           {/* <Footer /> */}
           </Newwrapper>
     )
 }
