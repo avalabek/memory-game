@@ -10,8 +10,6 @@ https://vigorous-hugle-9a0123.netlify.com/
 
 ![Memory-Game](public/images/Picture1.png "Deployed with Netlify")
 
-![Memory-Game](public/images/Picture2.png)
 
-![Memory-Game](public/images/Picture3.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
